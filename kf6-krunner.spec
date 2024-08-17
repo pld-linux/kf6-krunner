@@ -40,6 +40,7 @@ BuildRequires:	kf6-kguiaddons-devel >= %{version}
 BuildRequires:	kf6-ki18n-devel >= %{version}
 BuildRequires:	kf6-kiconthemes-devel >= %{version}
 BuildRequires:	kf6-kio-devel >= %{version}
+BuildRequires:	kf6-kitemmodels-devel >= %{version}
 BuildRequires:	kf6-kitemviews-devel >= %{version}
 BuildRequires:	kf6-kjobwidgets-devel >= %{version}
 BuildRequires:	kf6-kservice-devel >= %{version}
