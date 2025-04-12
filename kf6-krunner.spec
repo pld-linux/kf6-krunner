@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeframever	6.12
+%define		kdeframever	6.13
 %define		qtver		5.15.2
 %define		kfname		krunner
 
 Summary:	Framework for Plasma runners
 Name:		kf6-%{kfname}
-Version:	6.12.0
+Version:	6.13.0
 Release:	1
 License:	LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/frameworks/%{kdeframever}/%{kfname}-%{version}.tar.xz
-# Source0-md5:	8ce8c7e67b664ae96edad12212a2f0ac
+# Source0-md5:	36ff81ebcdb1988eb272bf27f0dfc035
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6DBus-devel >= %{qtver}
