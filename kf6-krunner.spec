@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeframever	6.18
+%define		kdeframever	6.19
 %define		qtver		5.15.2
 %define		kfname		krunner
 
 Summary:	Framework for Plasma runners
 Name:		kf6-%{kfname}
-Version:	6.18.0
+Version:	6.19.0
 Release:	1
 License:	LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/frameworks/%{kdeframever}/%{kfname}-%{version}.tar.xz
-# Source0-md5:	892ccdddc92adfd13f0942a3d42708ca
+# Source0-md5:	b46272c83f8ff32e05063544ed20d339
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6DBus-devel >= %{qtver}
@@ -119,7 +119,7 @@ rm -rf $RPM_BUILD_ROOT
 %doc README.md
 %{_datadir}/qlogging-categories6/krunner.categories
 %ghost %{_libdir}/libKF6Runner.so.6
-%attr(755,root,root) %{_libdir}/libKF6Runner.so.*.*
+%{_libdir}/libKF6Runner.so.*.*
 %{_datadir}/dbus-1/interfaces/kf6_org.kde.krunner1.xml
 %{_datadir}/kdevappwizard/templates/runner6.tar.bz2
 %{_datadir}/kdevappwizard/templates/runner6python.tar.bz2
