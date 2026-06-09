@@ -75,6 +75,20 @@ This functionality is provided via plugins loaded at runtime called
 "Runners". These plugins can be used by any application using the
 Plasma library. The KRunner framework is used to write these plugins.
 
+%description -l pl.UTF-8
+Obszary robocze Plazmy dostarczają aplikację zwaną KRunner, która
+między innymi pozwala wpisać coś w pole tekstowe, co powoduje
+wykonanie różnych akcji. Informacja, która pasuje do wprowadzanego
+tekstu pojawia się podczas pisania.
+
+Jedną z aplikacji jest uniwersalny "wykonywacz", którego możesz
+uruchomić przez ALT-F2.
+
+Taka funkcjonalność jest dostarczana przez wtyczki ładowane w czasie
+pracy zwane "Runners". Te wtyczki mogą być używane przez dowolną
+aplikację korzystającą z biblioteki Plazmy. Szkielet KRunner jest
+przeznaczony do pisania takich wtyczek.
+
 %package devel
 Summary:	Header files for %{kfname} development
 Summary(pl.UTF-8):	Pliki nagłówkowe dla programistów używających %{kfname}
